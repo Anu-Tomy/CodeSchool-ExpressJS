@@ -1,6 +1,5 @@
 //add client-side JavaScript
 $(function(){
-
   $.get('/cities', appendToList); 
 
   function appendToList(cities) {
