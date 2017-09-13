@@ -69,8 +69,6 @@ router.route('/:name')
     }
   });
 
-
-
 // Searches for keyword in description
 // and returns the city
 function citySearch(keyword) {
